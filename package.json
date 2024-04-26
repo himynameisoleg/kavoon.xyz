@@ -1,5 +1,5 @@
 {
-  "name": "web-app_nextjs_typescript_hello-world",
+  "name": "kavoon-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@auth0/nextjs-auth0": "^3.2.0",
+    "@auth0/nextjs-auth0": "^3.5.0",
     "axios": "^1.6.0",
-    "next": "14.0.0",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
     "server-only": "^0.0.1"
@@ -21,8 +21,10 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.0.0",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
     "prettier": "^3.0.3",
+    "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
 }
